@@ -1,0 +1,309 @@
+@font-face{
+    src:url(../fonts/OpenSans-Regular.ttf);
+    font-family: open-reg;
+}
+@font-face{
+    src:url(../fonts/OpenSans-SemiBold.ttf);
+    font-family: open-semi;
+}
+@font-face{
+    src:url(../fonts/Lora-Italic.ttf);
+    font-family: lora-ita;
+}
+@font-face{
+    src:url(../fonts/Lora-SemiBold.ttf);
+    font-family: lora-semi;
+}
+@font-face{
+    src:url(../fonts/Lora-Regular.ttf);
+    font-family: lora-reg;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: open-reg;
+}
+
+/*header coding start*/
+.header{
+    background: #24242c;
+}
+.logo{
+display: block;
+}
+.logo a{}
+.logo i {
+    padding-top: 16%;
+    font-size: 41px;
+    color: #e0ad2f;
+}
+.logo-text {
+    display: inline-grid;
+}
+.logo-text h4 {
+    margin: 0;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+.logo-text p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #bbbbbe;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: flex-end;  
+}
+.header-menu-space {
+    padding: 0 25px;
+}
+.header-menu-space:last-clild{
+    padding: 0;
+}
+.header-menu-link {
+    color: #97999b!important;
+    font-size: 19px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.header-menu-link:hover {
+    color: #e0ad2f!important;
+}
+/*header coding end*/
+.slick-slider{
+
+}
+.slider{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+}
+.slider img {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+}
+.slider-box-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+.slider-box-caption h1 {
+    align-items: center;
+    color: #24242c;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-spacing: 6px;
+}
+.slider-box-caption h5 {
+    padding: 2% 0 4% 0;
+    align-items: center;
+    color: black;
+    font-size: 27px; 
+    font-weight: 700;
+}
+
+.slider-box-caption a button {
+    height: 65px;
+    width: 236px;
+    background: #24242c;
+    color: white;
+    font-size: 18px;
+    border-radius: 7%;
+    border: 0.5px solid white;
+    transition: 0.3s;
+}
+.slider-box-caption a button:hover {
+    width: 238px;
+    background: #e0ad2f;
+    border: 2px solid white;
+    font-family: open-semi;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*offer section start*/
+.offer{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.offer-box{
+}
+.offer-box img {
+    height: 31vh;
+    width: 19vw;
+    border: 1px solid black;
+}
+.offer-box h2 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-family: open-semi;
+    font-size: 29px;
+}
+.offer-box h6 {
+    font-family: lora-reg;
+    font-size: 18px;
+    font-weight: 700;
+    color: #97999b;
+}
+.offer-box h6 .offer-map{
+    padding-right: 9px;
+    color: #ffb600;
+}
+.offer-box p {
+    padding-top: 3%;
+    font-family: open-reg;
+    font-size: 16px;
+    font-weight: 700;
+    color: #97999b;
+    word-spacing: 1px;
+}
+.offer-box span {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: -webkit-box;
+    color: black;
+    letter-spacing: -1px;
+}
+.offer-box span h3{
+    font-weight: 700!important;
+    font-family: open-semi;
+}
+.offer-button button{
+    height: 65px;
+    width: 236px;
+    background: #24242c;
+    color: #e0ad2f;
+    font-size: 18px;
+    border-radius: 7%;
+    border: 0.5px solid white;
+    transition: 0.3s;
+}
+.offer-button button:hover{
+    width: 238px;
+    background: #e0ad2f;
+    border: 2px solid white;
+    font-family: open-semi;
+    color: #24242c;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*offer section end*/
+
+/*life section start*/
+.life{
+    height: 100vh;
+    background: linear-gradient(
+323deg
+, rgb(33 150 243 / 39%) 35%, rgba(255,255,255,0.2665441176470589) 100%), url(../images/house.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.life-img{
+
+}
+.life-tag {
+    padding-top: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-life{
+    display: flex;
+    justify-content: center;
+}
+.new-life h1 {
+    padding: 0 7px;
+    font-size: 77px;
+    font-weight: 700;
+    color: white;
+}
+
+.s_life{
+    font-family: lora-ita;
+    color: #e0ad2f !important;
+}
+.life-tag .life-button{
+    height: 65px;
+    width: 236px;
+    background: #24242c;
+    color: #e0ad2f;
+    font-size: 18px;
+    border-radius: 7%;
+    border: 0.5px solid white;
+    transition: 0.3s;
+}
+
+/*life section end*/
+
+/*footer-offer start*/
+
+.footer-offer-box {
+    text-align: center;
+}
+.footer-offer-box h2 {
+    font-size: 100px;
+}
+.footer-offer-box h6 {
+    font-size: 60px;
+}
+.footer-offer-box p {
+    font-size: 50px;
+}
+.footer-offer-span {
+    padding-left: 41%;
+}
+.footer-offer-span h3{
+    font-size: 43px;
+}
+.luxury-offer {
+    height: 80vh;
+    width: 49vw;
+}
+
+/*footer start*/
+
+.footer{
+   background-color: #233148; 
+   padding: 10px;
+}
+.footer-logo-brand{
+    margin: 0;
+}
+.footer-right-reserve {
+    margin-bottom: 0;
+    color: white;
+    font-family: open-semi;
+    font-size: 21px;
+    justify-content: start;
+}
+.footer-items: hover{
+
+}
+.footer-social-item {
+    padding-right: 32px;
+    font-size: 30px;
+
+}
+.footer-social-link {
+    color: white;;
+}
+/*footer end*/
+

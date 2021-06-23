@@ -1,0 +1,161 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.header-menu {
+    	justify-content: center;
+	}
+	.nav-middle-screen{
+		display: contents;
+	}
+	.header-menu-space {
+    	padding: 0 15px;
+	}
+	.header-menu-link {
+    	font-size: 15px;
+	}
+	/*header end*/
+
+	/*slick-slider start*/
+	.slider-box-caption{
+		text-align: center;
+	}
+	/*slick-slider end*/
+	/*offer start*/
+	.offer-box img {
+	    height: 27vh;
+	    width: 74vw;
+	}
+	/*offer end*/
+	/*life section start*/
+	.life-tag {
+    	top: 77%;
+	}
+	.new-life h1 {
+    	font-size: 24px;
+
+	}
+	/*life section end*/
+	/*footer offer start*/
+	.footer-offer-box h2 {
+    	font-size: 18px;
+	}
+	.footer-offer-box h6 {
+    	font-size: 13px;
+	}
+	.footer-offer-box p {
+    	font-size: 12px;
+	}
+	.footer-offer-span {
+    	padding-left: 19%;
+	}
+	.luxury-offer {
+	    height: 33vh;
+	    width: 100vw;
+	}
+	.footer-offer-box2 h2{
+		display: none;
+	}
+	/*footer offer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.header-menu {
+    	justify-content: center;
+	}
+	.nav-middle-screen{
+		display: contents;
+	}
+	/*header end*/
+
+	/*offer start*/
+	.offer-box{
+		padding-bottom: 15%;
+	}
+	.offer-box img {
+	    height: 34vh;
+	    width: 32vw;
+	}
+	/*offer end*/
+	/*life section start*/
+	.life-tag {
+    	top: 77%;
+	}
+	.new-life h1 {
+    	font-size: 61px;
+
+	}
+	/*life section end*/
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	.header-menu {
+    	justify-content: center;
+	}
+	.nav-middle-screen{
+		display: contents;
+	}
+	/*header end*/
+
+	/*offer start*/
+	.offer-box img {
+	    height: 31vh;
+	    width: 19vw;
+	    border: 1px solid black;
+	}
+	.offer-box img {
+	    height: 39vh;
+	    width: 48vw;
+	    border: 3px solid black;
+	}
+	.offer-box h2 {
+	    text-align: center;
+	}
+	.offer-box h6 {
+    	text-align: center;
+	}
+	.offer-box p {
+    	text-align: center;
+	}
+	.offer-box span h3{
+	    
+	}
+	/*offer end*/
+
+	/*life section start*/
+	.life-tag {
+    	top: 77%;
+	}
+	.new-life h1 {
+    	font-size: 61px;
+
+	}
+	/*life section end*/
+}
+
+/*Large devices desktops, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*life section start*/
+	.life-tag {
+    	top: 77%;
+	}
+	/*life section end*/
+ }
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	.slider img {
+	    width: 100vw;
+	    height: 100vh;
+	}
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)
+
+@media (min-width: 1400px) {
+
+}
